@@ -100,14 +100,15 @@ std::string do_thing(int thing);
 char* mything_do_thing(int thing);
 ```
 
-Classes
--------
+Classes with Public C Compatible Attributes
+-------------------------------------------
 
 ### C++
 
 ```cpp
 namespace mything {
 class MyClass {
+    public:
     int thing;
 };
 }
@@ -119,6 +120,45 @@ class MyClass {
 typedef struct {
     int thing;
 } mything_MyClass;
+```
+
+Classes with Private C Compatible Attributes
+--------------------------------------------
+
+### C++
+
+```cpp
+namespace mything {
+class MyClass {
+    private:
+    int thing;
+};
+}
+```
+
+### C
+
+```c
+typedef unsigned char mything_MyClass[2];
+```
+
+Classes with C Incompatible Attributes
+--------------------------------------
+
+### C++
+
+```cpp
+namespace mything {
+class MyClass {
+    std::string thing;
+};
+}
+```
+
+### C
+
+```c
+struct mything_MyClass;
 ```
 
 Class Methods
