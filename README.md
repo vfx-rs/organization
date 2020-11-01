@@ -32,4 +32,4 @@ Target Libraries
 Contributions
 =============
 
-All contributions are welcome. However, we require a contributor license agreement (TODO: What license agreement to use?), and so do the projects that we wrap.
+All contributions are welcome. However, the projects that we wrap require a contributor license agreement. A contributor to our repositories agrees to contributing under the license of the repository and is legally able to contribute.
