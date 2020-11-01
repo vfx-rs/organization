@@ -16,49 +16,38 @@ Implementation
 Error Handling
 ==============
 
-TODO
+If a project provides mechanisms to return C compatible errors, then those should be used. However, there may be a case where a project's error handling is incompatible with C (such as exceptions), so we will need to create our own error handler. The following pattern is suggested for the case of those cases.
 
-SUGGESTION: Implement something like Rust's `Result<T, E>`, unless the wrapped library already implements error handling that we can inherit from in C.
+### C++
 
-```c
-enum StatusCode {
-    OK;
-    ERROR;
-};
-typedef struct {
-    StatusCode status;
-    union value {
-        MyType value;
-        Error err;
+```cpp
+std::thread_local std::string error_string;
+
+int some_function_that_throws() {
+    try {
+        CPP::some_function_that_throws();
+    } catch (const Exception1& e) {
+        error_string = e.what();
+        return 1;
+    } catch (const Exception2& e) {
+        error_string = e.what();
+        return 2;
     }
-} MyTypeStatus;
+
+    return 0;
+}
+
+const char* get_error() {
+      return error_string.c_str();
+}
 ```
 
 Exceptions
 ==========
 
-C does not support exceptions, and it's generally considered bad to allow exceptions to pass across the C++ to C boundary (TODO: Why?). So, if wrapped code can cause an exception, then it should be wrapped in code like below.
+C does not support exceptions, and it's generally considered bad to allow exceptions to pass across the C++ to C boundary because it can lead to undefined behaviour. So, if wrapped code can cause an exception, then it should be wrapped in code like the example in [Error Handling](#Error-Handling).
 
 TODO: This may not catch everything.
-
-```cpp
-ThingStatus mything_do_thing(int thing) {
-    ThingStatus status;
-
-    try {
-        Thing thing = mything::do_thing(int thing);
-
-        status.status = StatusCode.OK;
-        status.value = thing;
-
-        return status
-    } catch (const std::exception& err) {
-        status.status = StatusCode.ERROR;
-        status.err = err;
-        return status;
-    }
-};
-```
 
 Static Asserts
 ==============

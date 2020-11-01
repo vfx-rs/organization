@@ -100,7 +100,7 @@ fn do_thing() -> Result<(), Error>;
 Panics
 ======
 
-Panics from Rust must never go across the C boundary (TODO: Why?). If code can panic, then it should be wrapped. More information can be found at https://doc.rust-lang.org/nomicon/ffi.html#ffi-and-panics.
+Panics from Rust must never go across the C boundary because it is undefined behaviour. If code can panic, then it should be wrapped. More information can be found at https://doc.rust-lang.org/nomicon/ffi.html#ffi-and-panics.
 
 ```rust
 fn do_thing() -> Result<(), Error> {
