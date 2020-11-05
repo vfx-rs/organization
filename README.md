@@ -27,7 +27,7 @@ Target Libraries
 | OpenSubdiv            | Not Started | https://github.com/PixarAnimationStudios/OpenSubdiv      |                                                                     |                    | https://crates.io/crates/opensubdiv          |
 | Ptex                  | Not Started | https://github.com/wdas/ptex                             |                                                                     |                    | https://crates.io/crates/ptex                |
 | SeExpr                | Not Started | https://github.com/wdas/SeExpr                           |                                                                     |                    | https://crates.io/crates/seexpr              |
-| USD                   | Not Started | https://github.com/PixarAnimationStudios/USD             |                                                                     |                    | https://crates.io/crates/usd                 |
+| USD                   | In Progress | https://github.com/PixarAnimationStudios/USD             |                                                                     |  https://github.com/luke-titley/usd-rs | https://crates.io/crates/usd                 |
 
 Contributions
 =============
