@@ -28,6 +28,7 @@ Target Libraries
 | Ptex                  | Not Started | https://github.com/wdas/ptex                             |                                                                     |                    | https://crates.io/crates/ptex                |
 | SeExpr                | Not Started | https://github.com/wdas/SeExpr                           |                                                                     |                    | https://crates.io/crates/seexpr              |
 | USD                   | In Progress | https://github.com/PixarAnimationStudios/USD             |                                                                     |  https://github.com/luke-titley/usd-rs | https://crates.io/crates/usd                 |
+| MaterialX             | Not Started | https://github.com/materialx/MaterialX                   |                                                                     |                    | https://crates.io/crates/materialx           |
 
 Contributions
 =============
