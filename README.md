@@ -2,7 +2,7 @@
 
 # Rust Bindings Working Group
 
-The Rust bindings working group is dedicated to creating C and Rust bindings for C++ libraries used by the media and entertainment industry.
+The Rust bindings working group is dedicated to creating a foundation for C and Rust bindings for C++ libraries used by the media and entertainment industry.
 
 Goals of the WG are:
 
