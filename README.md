@@ -2,18 +2,18 @@
 
 # Rust Bindings Working Group
 
-The Rust bindings working group is dedicated to create C and Rust bindings for C++ libraries used by the media and entertainment industry.
+The Rust bindings working group is dedicated to creating C and Rust bindings for C++ libraries used by the media and entertainment industry.
 
 Goals of the WG are:
 
-- Create a framework for collaborating with projects and working groups to create consistent C and Rust bindings, and to facilitate creating the bindings.
+- To collaporate with ASWF ocmmunities to create (or facilitate the creation of) C and Rust bindings which are consistent across projects.
 - Create tooling to help build the C and Rust bindings.
-- Create a set of conventions and rules to create a consistant and ergonomic C and Rust interface for the wrapped libraries.
+- Define a set of conventions and rules to create a consistent and ergonomic C and Rust interface for the wrapped libraries.
 - To have the Rust bindings easily accessable through Rust's crates.io repository, and to give ownership of those bindings to the ASWF.
 
 Non-goals of the WG are:
 
-- Converting or reimplementing current C++ libraries into Rust libraries.
+- Reimplementing current C++ libraries in Rust.
 
 The TAC member sponsor of this working group is Sean Looper
 
@@ -31,7 +31,7 @@ This WG communicates on the following channels:
 
 ## Meetings
 
-See the [ASWF public calendar](https://lists.aswf.io/calendar). This WG meets _meeting day/time and frequency_.
+See the [ASWF public calendar](https://lists.aswf.io/calendar). This WG meets the first Friday of every month at 12 pm Pacific Time.
 
 _provide the Zoom/conference call details_
 
