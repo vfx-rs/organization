@@ -6,14 +6,14 @@ The Rust bindings working group is dedicated to creating C and Rust bindings for
 
 Goals of the WG are:
 
-- To collaporate with ASWF ocmmunities to create (or facilitate the creation of) C and Rust bindings which are consistent across projects.
+- To collaborate with ASWF communities to create (or facilitate the creation of) C and Rust bindings which are consistent across projects.
 - Create tooling to help build the C and Rust bindings.
 - Define a set of conventions and rules to create a consistent and ergonomic C and Rust interface for the wrapped libraries.
-- To have the Rust bindings easily accessable through Rust's crates.io repository, and to give ownership of those bindings to the ASWF.
+- To have the Rust bindings easily accessible through Rust's crates.io repository, and to give ownership of those bindings to the ASWF.
 
 Non-goals of the WG are:
 
-- Reimplementing current C++ libraries in Rust.
+- Re-implementing current C++ libraries in Rust.
 
 The TAC member sponsor of this working group is Sean Looper
 
