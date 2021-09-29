@@ -45,17 +45,18 @@ Meeting notes, recordings, and any presentations made during WG meetings are ava
 
 ## Tracked Libraries
 
-| Name                  | Status      | Repository                                               | C Development                                                       | Rust Development                       | Crate                                        |
-| --------------------- | ----------- | -------------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------- |
-| Imath                 | In Progress | https://github.com/AcademySoftwareFoundation/Imath       | https://github.com/AcademySoftwareFoundation/Imath/pull/56          |                                        | https://crates.io/crates/imath               |
-| Alembic               | Not Started | https://github.com/alembic/alembic                       |                                                                     |                                        | https://crates.io/crates/alembic             |
-| OpenEXR               | Not Started | https://github.com/AcademySoftwareFoundation/openexr     |                                                                     |                                        | https://crates.io/crates/openexr             |
-| OpenColorIO           | Not Started | https://github.com/AcademySoftwareFoundation/OpenColorIO |                                                                     |                                        | https://crates.io/crates/opencolorio         |
-| OpenVDB               | Not Started | https://github.com/AcademySoftwareFoundation/openvdb     |                                                                     |                                        | https://crates.io/crates/openvdb             |
-| OpenTimelineIO        | In Progress | https://github.com/PixarAnimationStudios/OpenTimelineIO  | https://github.com/PixarAnimationStudios/OpenTimelineIO/tree/c-otio |                                        | https://crates.io/crates/opentimelineio      |
-| Open Shading Language | Not Started | https://github.com/imageworks/OpenShadingLanguage        |                                                                     |                                        | https://crates.io/crates/openshadinglanguage |
-| OpenImageIO           | In Progress | https://github.com/OpenImageIO/oiio                      | https://github.com/OpenImageIO/oiio/pull/2748                       |                                        | https://crates.io/crates/openimageio         |
-| OpenSubdiv            | Not Started | https://github.com/PixarAnimationStudios/OpenSubdiv      |                                                                     |                                        | https://crates.io/crates/opensubdiv          |
-| Ptex                  | Not Started | https://github.com/wdas/ptex                             |                                                                     |                                        | https://crates.io/crates/ptex                |
-| SeExpr                | Not Started | https://github.com/wdas/SeExpr                           |                                                                     |                                        | https://crates.io/crates/seexpr              |
-| USD                   | In Progress | https://github.com/PixarAnimationStudios/USD             |                                                                     |  https://github.com/luke-titley/usd-rs | https://crates.io/crates/usd                 |
+| Name                  | Status      | Repository                                               | Binding Development                    | Crate                                        |
+| --------------------- | ----------- | -------------------------------------------------------- | -------------------------------------- | -------------------------------------------- |
+| Alembic               | Not Started | https://github.com/alembic/alembic                       |                                        | https://crates.io/crates/alembic             |
+| Imath                 | Not Started | https://github.com/AcademySoftwareFoundation/Imath       |                                        | https://crates.io/crates/imath               |
+| MaterialX             | Not Started | https://github.com/materialx/MaterialX                   |                                        | https://crates.io/crates/materialx           |
+| Open Shading Language | Not Started | https://github.com/imageworks/OpenShadingLanguage        |                                        | https://crates.io/crates/openshadinglanguage |
+| OpenColorIO           | Not Started | https://github.com/AcademySoftwareFoundation/OpenColorIO |                                        | https://crates.io/crates/opencolorio         |
+| OpenEXR               | In Progress | https://github.com/AcademySoftwareFoundation/openexr     | https://github.com/vfx-rs/openexr-bind | https://crates.io/crates/openexr             |
+| OpenImageIO           | In Progress | https://github.com/OpenImageIO/oiio                      | https://github.com/vfx-rs/oiio-bind    | https://crates.io/crates/openimageio         |
+| OpenSubdiv            | Not Started | https://github.com/PixarAnimationStudios/OpenSubdiv      |                                        | https://crates.io/crates/opensubdiv          |
+| OpenTimelineIO        | Not Started | https://github.com/PixarAnimationStudios/OpenTimelineIO  |                                        | https://crates.io/crates/opentimelineio      |
+| OpenVDB               | Not Started | https://github.com/AcademySoftwareFoundation/openvdb     |                                        | https://crates.io/crates/openvdb             |
+| Ptex                  | In Progress | https://github.com/wdas/ptex                             | https://github.com/vfx-rs/ptex-bind    | https://crates.io/crates/ptex                |
+| SeExpr                | Not Started | https://github.com/wdas/SeExpr                           |                                        | https://crates.io/crates/seexpr              |
+| USD                   | In Progress | https://github.com/PixarAnimationStudios/USD             | https://github.com/vfx-rs/usd-bind     | https://crates.io/crates/usd                 |
