@@ -44,7 +44,7 @@ fn do_thing(thing: i32) {
 ### Good
 ```rust
 use crate::error::Error;
-type Result<T, E=Error> = std::result::Result<T, E>;
+type Result<T, E = Error> = std::result::Result<T, E>;
 
 fn do_thing(thing: i32) -> Result<()> {
     if thing > 12 {
@@ -66,7 +66,8 @@ Try to preserve the structure from the C++ library where it makes sense, but don
 
 Import the -sys crate in each module that needs it like so:
 ```rust
-use openexr-sys as sys;
+use openexr_sys as sys;
+
 pub fn foo() {
     unsafe {
         sys::openexr_foo();
@@ -294,7 +295,7 @@ pub use error::Error;
 ```rust
 // src/foo.rs
 use crate::error::Error;
-type Result<T, E=Error> = std::result<T, E>;
+type Result<T, E = Error> = std::result<T, E>;
 
 // now we can just use `Result<>`
 pub fn foo() -> Result<i32> {
