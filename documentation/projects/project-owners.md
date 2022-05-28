@@ -61,7 +61,7 @@ URL: https://github.com/vfx-rs/ptex-bind
 
 ### Chief Architect
 
-- Primary: `None`
+- Primary: David Aguilar
 - Secondary: `None`
 
 USD
